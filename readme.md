@@ -1,7 +1,6 @@
-Here's a comprehensive README.md for your Nigerian Constitution AI Chatbot:
 
-```markdown
-# Nigerian Constitution AI Chatbot 🇳🇬
+
+#Nigerian Constitution AI Chatbot 🇳🇬
 
 A Retrieval-Augmented Generation (RAG) powered chatbot that answers questions about the Nigerian Constitution with legal citations.
 
@@ -21,6 +20,7 @@ A Retrieval-Augmented Generation (RAG) powered chatbot that answers questions ab
 ## Installation
 
 1. **Clone Repository**
+
 ```bash
 git clone https://github.com/yourusername/nigerian-constitution-chatbot.git
 cd nigerian-constitution-chatbot
@@ -135,18 +135,3 @@ Contributions are welcome! Please open an issue or PR for:
 - Mistral-7B model by [TheBloke](https://huggingface.co/TheBloke)
 ```
 
-This README includes:
-1. Clear installation instructions
-2. Configuration guidance for different setups
-3. Deployment options
-4. Troubleshooting section
-5. Legal disclaimer
-6. Project structure overview
-7. Contribution guidelines
-
-You may want to:
-1. Add screenshots in a `media/` directory
-2. Customize the acknowledgments section
-3. Update the license file
-4. Add CI/CD badges when implementing pipelines
-5. Include performance benchmarks
