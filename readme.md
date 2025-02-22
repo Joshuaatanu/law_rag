@@ -22,8 +22,8 @@ A Retrieval-Augmented Generation (RAG) powered chatbot that answers questions ab
 1. **Clone Repository**
 
 ```bash
-git clone https://github.com/yourusername/nigerian-constitution-chatbot.git
-cd nigerian-constitution-chatbot
+git clone https://github.com/Joshuaatanu/law_rag.git
+cd law_rag
 ```
 
 2. **Set Up Virtual Environment**
