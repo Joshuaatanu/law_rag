@@ -1,6 +1,6 @@
 
 
-#Nigerian Constitution AI Chatbot 🇳🇬
+# Nigerian Constitution AI Chatbot 🇳🇬
 
 A Retrieval-Augmented Generation (RAG) powered chatbot that answers questions about the Nigerian Constitution with legal citations.
 
