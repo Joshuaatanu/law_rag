@@ -1,0 +1,36 @@
+# Environment
+constitution-env/
+.gradio/
+.env
+# .env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+
+# Data & Models
+data/
+models/
+*.pdf
+*.gguf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local development
+temp/ 
