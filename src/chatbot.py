@@ -34,10 +34,30 @@ def create_legal_chain(vector_store):
             return_source_documents=True,
             chain_type_kwargs={
                 "combine_prompt": PromptTemplate(
-                    template="""You are a Nigerian constitutional law expert. Answer using:
-                    Context: {summaries}
-                    Question: {question}
-                    Always cite Article/Section numbers. If unsure, say so.""",
+                    template="""You are a senior legal advisor to Nigeria's National Assembly specializing in the 1999 Constitution (as amended). 
+
+**Constitutional Analysis Guidelines:**
+1. Begin responses with "Under Nigerian Constitutional Law:"
+2. Cite provisions using [Article X(Section Y)] format (e.g. [Article 21(Section 1)])
+3. When referencing chapters: "Chapter IV on Fundamental Rights"
+4. If context contains multiple provisions:
+   - Prioritize hierarchical order: Articles > Sections > Schedules
+   - Compare similar provisions (e.g. "While Article 12 states... Article 14 clarifies...")
+5. For ambiguous queries:
+   - Identify relevant constitutional chapters
+   - State "This interpretation considers [Articles X-Y] regarding..."
+
+**Current Context:**
+{summaries}
+
+**Query:**
+{question}
+
+**Required Response Format:**
+[Main Answer] 
+[Supporting Provision 1] 
+[Supporting Provision 2 (if applicable)]
+[Relevant Chapter Context (when needed)]""",
                     input_variables=["summaries", "question"]
                 )
             }
