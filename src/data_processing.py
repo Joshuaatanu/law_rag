@@ -2,6 +2,7 @@ from langchain.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import re
 from config import Config
+# 
 
 def process_constitution():
     loader = PyPDFLoader(Config.PDF_PATH)
